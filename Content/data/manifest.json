@@ -1,0 +1,51 @@
+{
+  "name": "wujiaochang",
+  "generated_utc": "2026-06-17T03:16:37.955760+00:00",
+  "data_source": "OpenStreetMap via Overpass API (osmnx)",
+  "osm_query": {
+    "bbox_west_south_east_north": [
+      121.51,
+      31.302,
+      121.52,
+      31.311
+    ],
+    "place": null
+  },
+  "projection": {
+    "method": "azimuthal equidistant (aeqd), tangent plane at origin",
+    "datum": "WGS84",
+    "origin_lonlat": [
+      121.515,
+      31.3065
+    ],
+    "units": "centimetres (metres * 100) — UE units",
+    "axes": "X_cm = East, Y_cm = North (flip Y on UE import for north-up)"
+  },
+  "height_rules": {
+    "priority": [
+      "osm:height",
+      "osm:levels * 3.0m",
+      "default 12.0m"
+    ],
+    "level_height_m": 3.0,
+    "default_height_m": 12.0
+  },
+  "counts": {
+    "buildings": 95,
+    "roads": 385
+  },
+  "scene_extent_cm": {
+    "x_min": -47601.0,
+    "x_max": 47596.5,
+    "y_min": -49892.5,
+    "y_max": 49894.7
+  },
+  "outputs": [
+    "buildings_meta.csv",
+    "buildings_verts.csv",
+    "buildings.geojson",
+    "roads_meta.csv",
+    "roads_verts.csv",
+    "roads.geojson"
+  ]
+}
