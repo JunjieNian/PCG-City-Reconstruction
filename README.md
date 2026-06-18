@@ -46,9 +46,6 @@ PCGCity/
 │  │  Exported CSV files, including buildings_meta, buildings_verts,
 │  │  roads_meta, and roads_verts.
 │  │
-│  ├─ OSMData/
-│  │  Raw and intermediate OSM-related files.
-│  │
 │  └─ pipeline/
 │     Python scripts for translating OSM data into CSV/DataTable-ready format.
 │
